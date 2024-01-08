@@ -53,7 +53,7 @@ function agregar()
         curl_setopt_array(
             $curl,
             array(
-                CURLOPT_URL => 'https://api.imgbb.com/1/upload?expiration=86400&key=931ffaceeff037e12f6f95ae9ead7c33',
+                CURLOPT_URL => 'https://api.imgbb.com/1/upload?expiration=86400&key= " your api key in web free " ',
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => '',
                 CURLOPT_MAXREDIRS => 10,
